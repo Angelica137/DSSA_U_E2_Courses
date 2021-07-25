@@ -23,13 +23,13 @@ courses = {
 
 def when_offered(courses, course):
     # TODO: Fill out the function here.
-    for key in courses:
-        for key in courses[key]:
-            if (key == course):
-                return course
+    results = []
+    for semester in courses:
+        if course in courses[semester]:
+            results.append(semester)
 
             # TODO: Return list of semesters here.
-    return None
+    return results
 
 
 print(when_offered(courses, 'cs101'))
