@@ -12,3 +12,7 @@ courses = {
 
 def test_when_offered_returns_list_with_semsters_cs101():
     assert when_offered(courses, 'cs101') == ['spring2020', 'fall2020']
+
+
+def test_when_offered_returns_list_with_semsters_bio893():
+    assert when_offered(courses, 'bio893') == []
