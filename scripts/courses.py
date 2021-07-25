@@ -5,6 +5,11 @@
 #                                     ... },
 #      ... }
 
+'''
+create a function when_offered that returns a list of strings representing 
+the semesters when the input course is offered
+'''
+
 
 courses = {
     'spring2020': {'cs101': {'name': 'Building a Search Engine', 'teacher': 'Dave', 'assistant': 'Peter C.'}, 'cs373': {'name': 'Programming a Robotic Car', 'teacher': 'Sebastian',

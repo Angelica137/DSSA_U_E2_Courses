@@ -101,6 +101,9 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+# Journal
+Ex2_coursesJournal.pages
+
 # SageMath parsed files
 *.sage.py
 
