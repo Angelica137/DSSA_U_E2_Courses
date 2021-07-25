@@ -23,8 +23,12 @@ courses = {
 
 def when_offered(courses, course):
     # TODO: Fill out the function here.
+    for key in courses:
+        for key in courses[key]:
+            if (key == course):
+                return course
 
-    # TODO: Return list of semesters here.
+            # TODO: Return list of semesters here.
     return None
 
 
