@@ -10,5 +10,5 @@ courses = {
 }
 
 
-def test_when_offered_returns_course_cs101():
-    assert when_offered(courses, 'cs101') == 'cs101'
+def test_when_offered_returns_list_with_semsters_cs101():
+    assert when_offered(courses, 'cs101') == ['fall2020', 'spring2020']
